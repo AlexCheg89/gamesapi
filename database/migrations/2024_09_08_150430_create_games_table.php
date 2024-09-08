@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('developer');
             $table->json('genres');
             $table->text('description')->nullable();
+            $table->string('pathimage')->nullable();
             $table->timestamps();
         });
     }
