@@ -14,8 +14,8 @@ use App\Http\Controllers\GameController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('games');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::get('/', [GameController::class, 'index']);
+//Route::get('/', [GameController::class, 'index']);
